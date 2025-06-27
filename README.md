@@ -1,30 +1,35 @@
-# Defra AI SDLC Playbook
-Version 1.4
+# Defra AI Policy Writeup
+Version 0.1
 
-This playbook shows you how to use AI tools in software development. We designed it for Defra teams and update it regularly with new practices and lessons learned.
+This document is designed to be a technical writeup of the AI agents in policy work which was undertaken.
 
 ## Table of Contents
-1. [Welcome](README.md)
-2. [Responsible Practices](pages/responsible-practices/README.md)
-    1. [Ethics](pages/responsible-practices/ethics.md)
-    2. [Sustainability](pages/responsible-practices/sustainability.md)
-3. [Getting Started](pages/getting-started/README.md)
-    1. [Workflow](pages/getting-started/workflow.md)
-    2. [The Four Pillars](pages/getting-started/the-four-pillars.md)
-    3. [Mindset](pages/getting-started/ai-working-mindset.md)
-    4. [Project Setup](pages/getting-started/project-setup.md)
-4. [Feature Development](pages/feature-development/README.md)
-    1. [Product Requirements](pages/feature-development/product-requirements.md)
-    2. [Development](pages/feature-development/development.md)
-    3. [Test Driven Development](pages/feature-development/test-driven-development.md)
-    4. [Testing](pages/feature-development/testing.md)
-    5. [Refactoring](pages/feature-development/refactoring.md)
-    6. [Documentation](pages/feature-development/documentation.md)
-5. [Appendix](pages/appendix/README.md)
-    1. [Prompt Library](pages/appendix/prompt-library/README.md)
-    2. [Rules for AI](pages/appendix/rules-for-ai/README.md)
-    3. [Defra Approved Tools](pages/appendix/defra-approved-tools.md)
-    4. [Contributing](pages/appendix/CONTRIBUTING.md)
+1. [Parliamentary Questions Agents](pages/parliamentary-questions-agents/README.md)
+    1. [Search Agent](pages/parliamentary-questions-agents/search-agent.md)
+    2. [Filter Agent](pages/parliamentary-questions-agents/filter-agent.md)
+    3. [Key Elements Agent](pages/parliamentary-questions-agents/key-elements-agent.md)
+    4. [Response Agent](pages/parliamentary-questions-agents/response-agent.md)
+    5. [Review Agent](pages/parliamentary-questions-agents/review-agent.md)
+    6. [JSON Formatter Agent](pages/parliamentary-questions-agents/json-formatter-agent.md)
+2. [Parliamentary Questions Deployment](pages/parliamentary-questions-deployment/README.md)
+    1. [Backend API](pages/parliamentary-questions-deployment/backend.md)
+    2. [Frontend App](pages/parliamentary-questions-deployment/frontend.md)
+3. [Letters Agents](pages/letters-agents/README.md)
+    1. [Prompt Loading & Configuration](pages/letters-agents/prompt-loading-configuration.md)
+    2. [Letter Summarization](pages/letters-agents/letter-summarization.md)
+    3. [Issue Extraction](pages/letters-agents/issue-extraction.md)
+    4. [Issue Parsing](pages/letters-agents/issue-parsing.md)
+    5. [Keyword Extraction](pages/letters-agents/keyword-extraction.md)
+    6. [Research Question Generation](pages/letters-agents/research-question-generation.md)
+    7. [Question Prioritization](pages/letters-agents/question-prioritization.md)
+    8. [Internet Research](pages/letters-agents/internet-research.md)
+    9. [Answer Synthesis](pages/letters-agents/answer-synthesis.md)
+    10. [Issue Research Summarization](pages/letters-agents/issue-research-summarization.md)
+    11. [Government Response Generation](pages/letters-agents/government-response-generation.md)
+4. [Appendix](pages/appendix/README.md)
+    1. [Rules for AI](pages/appendix/rules-for-ai/README.md)
+    2. [Defra Approved Tools](pages/appendix/defra-approved-tools.md)
+    3. [Contributing](pages/appendix/CONTRIBUTING.md)
 
 ## Overview
 

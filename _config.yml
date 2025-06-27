@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
-title: Defra AI in the SDLC Playbook
-description: This playbook is a living document that aims to provide guidance on best practices for ways of working, tooling, and context-specific use cases for the use of AI in the Software Development Lifecycle (SDLC) tailored to Defra's unique needs and challenges.
-baseurl: '/defra-ai-sdlc'
+title: Defra AI Policy Writeup
+description: This page is a document the Defra AI Policy work that was undertaken by Equal Experts in June 2025.
+baseurl: '/ai-policy-writeup'
 logo: /assets/images/defra-logo.svg
 version: 2.0.3
 css_version: 2.0.3
@@ -23,6 +23,18 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-relative-links
+
+# Defaults for automatic processing
+defaults:
+  - scope:
+      path: "pages"
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: "pages/**/*.md"
+    values:
+      layout: "default"
 
 # Include files that are normally excluded
 include:
