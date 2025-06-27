@@ -1,7 +1,8 @@
 theme: jekyll-theme-minimal
 title: Defra AI Policy Writeup
 description: This page is a document the Defra AI Policy work that was undertaken by Equal Experts in June 2025.
-baseurl: '/ai-policy-writeup'
+repository: adamfletcher/ai-agents-policy-writeup
+baseurl: '/ai-agents-policy-writeup'
 logo: /assets/images/defra-logo.svg
 version: 2.0.3
 css_version: 2.0.3
