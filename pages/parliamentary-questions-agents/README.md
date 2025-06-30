@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Parliamentary Questions Agentic Workflow
+nav_order: 6
 ---
 
 # Parliamentary Questions Agentic Workflow
