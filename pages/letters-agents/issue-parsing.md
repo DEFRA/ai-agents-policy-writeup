@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Issue Parsing Agent
-parent: Government Letter Analysis: Multi-Agent AI Pipeline
+parent: "Government Letter Analysis: Multi-Agent AI Pipeline"
 ---
 
 # Issue Parsing: Advanced Text Processing with Graceful Degradation

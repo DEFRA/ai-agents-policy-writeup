@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Answer Synthesis Agent
-parent: Government Letter Analysis: Multi-Agent AI Pipeline
+parent: "Government Letter Analysis: Multi-Agent AI Pipeline"
 ---
 
 # Answer Synthesis: Multi-Source Evidence Integration

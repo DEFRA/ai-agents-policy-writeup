@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Research Question Generation Agent
-parent: Government Letter Analysis: Multi-Agent AI Pipeline
+parent: "Government Letter Analysis: Multi-Agent AI Pipeline"
 ---
 
 # Research Question Generation Agent

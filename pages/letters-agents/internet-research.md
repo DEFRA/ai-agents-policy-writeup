@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Internet Research Agent
-parent: Government Letter Analysis: Multi-Agent AI Pipeline
+parent: "Government Letter Analysis: Multi-Agent AI Pipeline"
 ---
 
 # Internet Research Agent: Government-Source Intelligence Gathering

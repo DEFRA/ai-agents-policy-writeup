@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Keyword Extraction Agent
-parent: Government Letter Analysis: Multi-Agent AI Pipeline
+parent: "Government Letter Analysis: Multi-Agent AI Pipeline"
 ---
 
 # Keyword Extraction: Cloud-Based Policy Analysis Agent

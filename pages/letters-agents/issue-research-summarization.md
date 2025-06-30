@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Issue Research Summarization Agent
-parent: Government Letter Analysis: Multi-Agent AI Pipeline
+parent: "Government Letter Analysis: Multi-Agent AI Pipeline"
 ---
 
 # Issue Research Summarization

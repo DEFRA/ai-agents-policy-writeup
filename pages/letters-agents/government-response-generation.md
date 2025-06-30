@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Government Response Generation Agent
-parent: Government Letter Analysis: Multi-Agent AI Pipeline
+parent: "Government Letter Analysis: Multi-Agent AI Pipeline"
 ---
 
 # Government Response Generation Agent

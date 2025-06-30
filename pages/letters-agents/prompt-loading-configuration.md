@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Prompt Loading and Configuration
-parent: Government Letter Analysis: Multi-Agent AI Pipeline
+title: Prompt Loading Configuration
+parent: "Government Letter Analysis: Multi-Agent AI Pipeline"
 ---
 
 # Prompt Loading & Configuration: Template-Driven Agent Architecture

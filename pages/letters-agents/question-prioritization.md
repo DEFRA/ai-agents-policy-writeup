@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Question Prioritization Agent
-parent: Government Letter Analysis: Multi-Agent AI Pipeline
+parent: "Government Letter Analysis: Multi-Agent AI Pipeline"
 ---
 
 # Question Prioritization Agent
