@@ -141,7 +141,39 @@ Both systems implement a **hybrid LLM strategy** that balances privacy, capabili
 ## Deployment Architecture
 
 ### Backend Infrastructure
-[[CHECK DETAIL]] - *Backend deployment details need to be added when available*
+
+**Core Delivery Platform:**
+- Supports development and deployment of Microservices based on Templates 
+- Python Backend Template employs the FastAPI library to deliver services
+- CDP provides a rich collection of code and utilities, including MongoDB
+- Terminal access to CLIs for AWS, MongoDB, and Redis
+
+**FastAPI**
+- Asynchronous APIs employing Pydantic Models for validation
+- Routers for Policy, Maintenance and Health
+- Example code provided by CDP Template
+
+**Vector Stores""
+- Implemented using the FAISS (Facebook AI Similarity Search) library
+- **Question Store**: Embedded question text, indexed by PQ id, metadata including Date Tabled, Asking Member Id, UIN.  
+- **Answer Store**: Embedded Answer text, index by PQ id
+- Cosine Similarity used as distance metric
+- Stores hosted in AWS S3
+
+**MongoDB**
+- Stores Policy Communication output created by Answer Generation pipeline
+- Stores Maintenance data, such as the ids of PQs still requiring answers
+
+**Processing**
+- Daily update of vector stores by extracting new PQs from Parliamentary Written Questions Service API
+- Policy Answer Generation APIs: 
+-- /chat/background_semantic - called by frontend to start Generation Pipeline with input Question
+-- /chat/semantic_output - called periodically by frontend to retrieve generated output
+- Supporting APIs:
+-- /search/questions - finds PQ Questions most similar to the input question
+-- /search/answers - finds PQs whose answers are most similar to the input question
+
+
 
 ### Frontend Applications  
 [[CHECK DETAIL]] - *Frontend implementation details need to be added when available*
