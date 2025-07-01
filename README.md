@@ -155,7 +155,7 @@ Both systems implement a **hybrid LLM strategy** that balances privacy, capabili
 - Routers for Policy, Maintenance and Health
 - Example code provided by CDP Template
 
-**Vector Stores""
+**Vector Stores**
 - Implemented using the FAISS (Facebook AI Similarity Search) library
 - **Question Store**: Embedded question text, indexed by PQ id, metadata including Date Tabled, Asking Member Id, UIN.  
 - **Answer Store**: Embedded Answer text, index by PQ id
