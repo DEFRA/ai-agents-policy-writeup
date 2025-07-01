@@ -38,6 +38,8 @@ Both systems showcase **hybrid LLM architectures**, **progressive data refinemen
 4. [Appendix](pages/appendix/README.md)
     1. [Response Agent - Prompt Details](pages/appendix/response-agent-prompt-details.md)
     2. [Review Agent - Prompt Details](pages/appendix/review-agent-prompt-details.md)
+    3. [Public Data Sources](pages/appendix/public-data-sources.md)
+    4. [AI Model Comparison](pages/appendix/ai-model-comparison.md)
 
 ## What We Built
 
