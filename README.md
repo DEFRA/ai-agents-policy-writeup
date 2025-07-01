@@ -146,57 +146,6 @@ Both systems implement a **hybrid LLM strategy** that balances privacy, capabili
 ### Frontend Applications  
 [[CHECK DETAIL]] - *Frontend implementation details need to be added when available*
 
-## Technical Achievements
-
-### Scaling Solutions
-- **10x reduction** in research operations through intelligent prioritisation
-- **O(n) vs O(n³) complexity** improvement preventing combinatorial explosion
-- **Progressive optimisation** where expensive models only process high-value, abstracted data
-
-### Quality Assurance
-- **Automated compliance** checking against Parliamentary standards
-- **Complete audit trails** for every decision and transformation
-- **Iterative improvement** with structured feedback integration
-- **Graceful degradation** when quality thresholds aren't met
-
-### Enterprise AI Patterns
-- **Hybrid model deployment** optimising privacy/capability/cost trade-offs
-- **State machine orchestration** for complex, reliable workflows
-- **Template-driven configuration** enabling behaviour modification without code changes
-- **Fault-tolerant design** with error containment and recovery
-
-## Lessons Learned
-
-### Successful Patterns
-1. **Hybrid intelligence** outperforms single-model approaches for enterprise constraints
-2. **Progressive abstraction** enables sophisticated processing while maintaining privacy
-3. **State machine orchestration** provides reliability and debuggability for complex workflows
-4. **Constraint-driven design** produces more robust solutions than capability-maximised approaches
-
-### Trade-offs and Limitations
-- **Privacy vs Capability** - Local processing limits early-stage sophistication
-- **Sequential vs Parallel** - Current implementation prioritises reliability over performance
-- **Scope constraints** - Government-only sources may miss relevant international information
-- **Iterative limits** - 3-attempt maximum prevents infinite improvement cycles
-
-### Future Enhancement Opportunities
-- **Parallel processing** for independent operations
-- **Machine learning integration** using rich metadata for optimisation
-- **International scaling** through template-based configuration
-- **Performance optimisation** while maintaining reliability guarantees
-
-## Suggested Improvements
-
-**Documentation Enhancement:**
-- **Process flow diagrams** showing agent interactions and data transformations
-- **Code examples** demonstrating key LangGraph patterns and state management
-- **Performance metrics** with specific timing and resource consumption data
-- **Failure mode analysis** documenting error handling and recovery patterns
-
-**Technical Additions:**
-- **Architecture diagrams** showing system boundaries and data flows
-- **Deployment guides** with infrastructure requirements and scaling considerations
-- **Configuration examples** demonstrating template customisation for different use cases
 
 ## Contact Us
 
